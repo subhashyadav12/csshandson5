@@ -1,0 +1,112 @@
+* {
+    margin:0;
+    padding:0;
+    background-color: rgb(243, 243, 11);
+    text-align: center;
+  }
+  .container1,
+  .container2,
+  .container3,
+  .container4 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .item1 {
+    width: 78px;
+    height: 78px;
+    background-color: rgb(13, 121, 121);
+    margin: 40px;
+    animation: ravi1 2s linear 1s  alternate-reverse;
+    animation-iteration-count: infinite;
+  }
+  @keyframes ravi1 {
+    from {
+      transform: skewx(20deg);
+    }
+    to {
+      transform: skewx(-20deg);
+    }
+  }
+  .item2 {
+    width: 78px;
+    height: 78px;
+    background-color: rgb(133, 133, 175);
+    margin: 40px;
+    animation: ravi2 2s linear 1s  alternate-reverse;
+    animation-iteration-count: infinite;
+  }
+  @keyframes ravi2 {
+    from {
+      transform: skewy(20deg);
+    }
+    to {
+      transform: skewy(-20deg);
+    }
+  }
+  .item3 {
+    width: 78px;
+    height: 78px;
+    background-color: rgb(51, 153, 95);
+    margin: 40px;
+    animation: ravi3 3s ease 1s  reverse;
+    animation-iteration-count: infinite;
+  }
+  @keyframes ravi3 {
+    from {
+      transform: rotatez(360deg);
+    }
+    to {
+      transform: rotatez(0deg);
+    }
+  }
+  .item4a {
+    width: 78px;
+    height: 78px;
+    margin: 40px;
+    background-color: rgb(233, 124, 29);
+    border: 2px solid rgb(133, 132, 132);
+    animation: ravi4a 2s ease 1s alternate-reverse;
+    animation-iteration-count: infinite;
+  }
+  @keyframes ravi4a {
+    from {
+      transform: rotatex(50deg);
+    }
+    to {
+      transform: rotatex(0deg);
+    }
+  }
+  .item4b {
+    width: 78px;
+    height: 78px;
+    margin: 40px;
+    background-color: rgb(241, 124, 111);
+    border: 2px solid rgb(134, 134, 134);
+    animation: ravi4b 2s ease 1s  alternate-reverse;
+    animation-iteration-count: infinite;
+  }
+  @keyframes ravi4b {
+    from {
+      transform: rotatey(70deg);
+    }
+    to {
+      transform: rotatey(0deg);
+    }
+  }
+  .item4c {
+    width: 78px;
+    height: 78px;
+    margin: 40px;
+    background-color: rgb(161, 82, 45);
+    border: 2px solid rgb(138, 137, 137);
+    animation: ravi4c 2s ease 1s alternate-reverse;
+    animation-iteration-count: infinite;
+}
+  @keyframes ravi4c {
+    from {
+      transform: rotate(100deg);
+    }
+    to {
+      transform: rotate(0deg);
+    }
+  }
